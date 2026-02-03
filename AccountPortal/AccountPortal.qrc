@@ -1,0 +1,16 @@
+<RCC>
+    <qresource>
+        <file>CustomLauncher.qmlproject</file>
+        <file>CustomLauncher/Constants.qml</file>
+        <file>CustomLauncher/EventListModel.qml</file>
+        <file>CustomLauncher/EventListSimulator.qml</file>
+        <file>CustomLauncher/qmldir</file>
+        <file>CustomLauncherContent/App.qml</file>
+        <file>CustomLauncherContent/FormScreen.ui.qml</file>
+        <file>CustomLauncherContent/LoginForm.ui.qml</file>
+        <file>CustomLauncherContent/Main.ui.qml</file>
+        <file>CustomLauncherContent/RegisterForm.ui.qml</file>
+        <file>CustomLauncherContent/RegisterScreenForm.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

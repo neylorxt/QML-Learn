@@ -1,5 +1,4 @@
 import QtQuick
-import QtQuick.VirtualKeyboard
 import QtQuick.Layouts
 import QtQuick.Controls
 import "Components"

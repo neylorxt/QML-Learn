@@ -34,7 +34,6 @@ int main(int argc, char *argv[])
     //     &app,
     //     []() { QCoreApplication::exit(-1); },
     //     Qt::QueuedConnection);
-    // engine.loadFromModule("CustomLauncherAPI", "Main");
 
     // QObject::connect(&api, &QApi::QApiReady, [](const QJsonDocument& doc, int status){
     //     qDebug() << "OK status:" << status;
@@ -45,7 +44,10 @@ int main(int argc, char *argv[])
     //     qWarning() << "ERR status:" << status << err;
     // });
 
-    // api.Get(QUrl("https://www.freetogame.com/api/games"));
+
+    engine.loadFromModule("CustomLauncherAPI", "Main");
+
+    api.Get(QUrl("https://www.freetogame.com/api/games"));
 
 
     data.getGamesViaAPI();
